@@ -7,10 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pixel Position</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="bg-black text-white">
+<body class="bg-black text-white font-hanken-grotesk">
 
     <div class="px-10">
         <nav class="flex justify-between items-center py-4 border-b border-white/10">
